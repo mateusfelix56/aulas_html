@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes</title>
+    <style>
+        #d1, #d2, #d3{
+            background-color: rgb(199, 198, 198);
+            width: 200px;
+            height: 200px;
+            border: solid 2px black;
+            display: inline-block;
+        }
+        p{
+            margin-top: 70px;
+            text-align: center;
+        }
+        #clique{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        
+        #d1:hover{
+            background-color: blue;
+            color: rgb(163, 163, 255);
+        }
+        #d2:hover{
+            background-color: yellow;
+            color: rgb(151, 151, 0);
+        }
+        #d3:hover{
+            background-color: red;
+            color: rgb(119, 0, 0);
+        }
+        #aparecer > img{
+            display: none;
+            margin: auto;
+        }
+        
+        #aparecer:active > img{
+            display: block;
+            
+        }
+        
+
+        </style>
+</head>
+
+<body>
+    <div id="d1"><p>AOI</p></div>
+    <div id="d2"><p>KIIRO</p></div>
+    <div id="d3"><p>AKAI</p></div>
+
+    <div id="aparecer">
+        <p id="clique">Clique aqui e segure</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-4mYPqwIN6Khi9-yVCcLohdI0PLWNb5Hh0A3RDA60Kg&s=10" alt="macaco educado">
+
+    </div>
+    
+</body>
+</html>
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links personalizados</title>
+    <style>
+        /*
+        
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        >  = children
+
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: blueviolet;
+        }
+        a:visited{
+            color: rgb(0, 170, 0);
+            
+        }
+        a:hover{
+            text-decoration: underline;
+            color: brown;
+            font-weight: bolder;
+        }
+        a::after{
+            content: ' carlinhos ';
+            color: rgb(41, 179, 179);
+            
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Pesonalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=P9DWYsBJEek">Links 1</a></li>
+        <li><a href="https://www.youtube.com/watch?v=fiEwKFe7_z0">Links 2</a></li>
+        <li><a href="https://www.youtube.com/watch?v=CWPvZrLMl9o">Links 3</a></li>
+    </ul>
+
+</body>
+</html>

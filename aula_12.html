@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font-family</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+        @font-face {
+            font-family: 'myheart';
+            src: url(fontes_html/myheart.woff2) format('woff2'), url(fontes_html/myheart.woff) format('woff'), url(fontes_html/myheart.otf) format('opentype'), url(fontes_html/myheart.ttf) format('truetype'); 
+        }
+        p{
+            text-indent: 1em;
+        }
+        .interna{
+            text-align: justify;
+            font: italic 900 1.2em arial, serif;
+            /*font: style - weight - size- family;*/
+            text-decoration: underline;
+        }
+        h1{
+            text-align: center;
+        }
+        .externa{
+            font:italic 500 1.5em "Caveat", serif;
+            text-decoration: underline;
+        }
+        .baixada{
+            font: italic 100 1.8em 'myheart', serif;
+            text-decoration: underline;
+            
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <h1>Fontes</h1>
+    <h2 class="interna" style="font-size: 25px;">Fonte interna</h2>
+    <p class="interna">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto beatae ut similique dolorem itaque modi dolorum veritatis molestias consequatur facere hic vero facilis, explicabo consectetur fuga voluptas. Unde minima perspiciatis, omnis in, velit, aliquid delectus veritatis adipisci aut voluptates incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fugiat tenetur ipsa qui amet saepe sit repellendus veritatis quod. Porro consequuntur, sequi aliquam omnis quis a aperiam dolores enim corrupti quas aut iusto reprehenderit natus minus fugit perspiciatis soluta nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt omnis ipsam, pariatur est accusamus magnam dignissimos cupiditate quidem numquam inventore cum a impedit quibusdam et voluptatem iure fugit error labore. Nam, illum? Voluptatibus molestiae assumenda, minus modi consequuntur architecto excepturi in eveniet nisi dicta provident delectus voluptates, nobis quia recusandae.
+    </p>
+    <h2 class="externa" style="font-size: 25px; font-family: bitcount grid double; font-weight: 400;">Fonte externa</h2>
+    <p class="externa">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae magni quo corrupti illo. Atque, maxime. Distinctio illo nam quaerat enim totam, ex iure ut explicabo assumenda laudantium qui, deleniti sapiente a rem in corrupti! Quo, odit. Expedita non maxime alias et sint, vitae minus modi placeat delectus. Inventore reprehenderit aspernatur velit ipsam accusantium optio commodi voluptas quae dicta at fugiat totam architecto asperiores laudantium modi aut repudiandae repellat, nobis soluta eveniet quod. Sit eum sint eligendi, laboriosam fuga quod nesciunt pariatur illo molestias repudiandae corporis debitis, harum rem laudantium distinctio commodi reprehenderit eos earum officiis illum veritatis doloremque quisquam. Doloribus.
+    </p>
+    <h2 class="baixada" style="font-size: 2.4em;">Fonte baixada</h2>
+    <p class="baixada">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illum non a velit provident, adipisci consequatur ratione aut magnam quasi fugiat voluptatibus commodi ipsum cumque corrupti cum nesciunt? Laborum eligendi consequatur illum, ad aliquam fugiat, aut veritatis aliquid ullam eaque praesentium inventore expedita laudantium reprehenderit. Aperiam tenetur voluptas odit iusto assumenda, molestiae suscipit dolores fuga facere similique officia iure placeat totam libero sunt labore quo, incidunt dolore odio dicta nulla sequi. Quia voluptate omnis quasi nihil cum obcaecati amet quaerat? Cupiditate facere dolores neque hic commodi, veniam architecto esse vitae expedita repudiandae explicabo natus illum non, beatae maiores deleniti placeat
+    </p>
+    
+</body>
+</html>
