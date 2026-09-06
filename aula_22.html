@@ -6,17 +6,18 @@
     <title>Document</title>
     <style>
         body{
-            background-color: black;
-            background-image: url(imagens_html/wallpaper002.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
+            background: black url(imagens_html/wallpaper002.jpg) center/cover no-repeat fixed;
+
+            /*
+            shorthand background = color > image > position > / > size > repeat > attachment
+            obs: apenas o "position > / > size" precisam estar na ordem correta todos os outros elementos podem estar em qualquer ordem
+            */
         }
         main{
-            background-color: rgba(255, 255, 255, 0.144);
+            background-color: rgb(255, 255, 255);
             border: solid 2px black;
             border-radius: 5px;
-            width: 500px;
+            max-width: 500px;
             margin: auto;
             padding: 10px;
         }
