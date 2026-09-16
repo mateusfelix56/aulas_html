@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Simples</title>
+    <style>
+        body{
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .emoji{
+            margin: 0;
+            font-size: 25px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border: 2px solid black;
+            text-align: right;
+            vertical-align: top;
+            height: 50px;
+            width: 50px;
+        }
+        tr{
+            background-color:gray ;   
+            color: aqua;
+            
+        }
+        tr.xadres{
+            background-color: rgb(216, 216, 216);
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    Nivel hierarquico da tabela simples
+    table = tabela
+        table row <tr> = linha da tabela
+            table header <th> = cabeçalho da tabela
+            table data <td> = conteudo da tabela
+    -->
+    <h1>Tabela</h1>
+    <p class="emoji">&#x1F6B6;</p>
+    <table>
+        <tr class="xadres">
+            <td>A1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>           
+        </tr>
+        <tr class="xadres">
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+            <td>D4</td>
+        </tr>
+        <tr class="xadres">
+            <td>A5</td>
+            <td>B5</td>
+            <td>C5</td>
+            <td>D5</td>
+            <td>E5</td>
+        </tr>
+        <tr>
+            <td>A6</td>
+            <td>B6</td>
+            <td>C6</td>
+            <td>D6</td>
+            <td>E6</td>
+            <td>F6</td>
+        </tr>
+        <tr class="xadres">
+            <td>A7</td>
+            <td>B7</td>
+            <td>C7</td>
+            <td>D7</td>
+            <td>E7</td>
+            <td>F7</td>
+            <td>G7</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
