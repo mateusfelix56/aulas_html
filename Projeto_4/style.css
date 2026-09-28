@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background: url(pacote-d013/pacote-d013/imagens/fundo-madeira.jpg) center/cover fixed;
+}
+ul{
+    list-style: none;
+    padding: 0 10px 0 0;
+}
+ul > li{
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+ul > li:hover{
+    transform: translate(-7px, -5px);
+    transition: transform 0.4s;
+}
+ul > li img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px black; 
+}
+ul > li img:hover{
+    border: 2px solid white;
+    box-shadow: 4px 4px 10px black;
+    transition-duration: 1s;
+}
+div{
+    width: 300px;
+    height: 600px;
+    background: url(pacote-d013/pacote-d013/imagens/frame-iphone.png) center/contain no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+iframe{
+    width: 256px;
+    height: 453px;
+    position: relative;
+    left: 22px;
+    top: 76px;
+    
+}
