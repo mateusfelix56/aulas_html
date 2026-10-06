@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Testando output</h1>
+    <form action="python.py" method="get">
+        <!-- Soma -->
+        <p>
+            <label for="in1">Primeira numero: </label>
+            <input type="number" name="n1" id="in1" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="in2">Segunda numero: </label>
+            <input type="number" name="n2" id="in2" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma: </label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+        <!-- Nivel -->
+        <p>
+            <label for="inum">Numero: </label>
+            <input type="range" name="num" id="inum" min="-10" max="50" value="3" oninput="ival.innerHTML = Number(inum.value)">
+            <output id="ival">3</output>
+        </p>
+        <!-- Idade -->
+        <p>
+            <label for="iano">Ano de nascimento: </label>
+            <input type="number" name="ano" id="iano" min="1900" max="2026" value="2000" oninput="calcIdade()">
+        </p>
+        <p>
+            <label for="iidade">Sua idade é: </label>
+            <output id="iidade">26</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <script>
+        function calcIdade(){
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+</body>
+</html>
