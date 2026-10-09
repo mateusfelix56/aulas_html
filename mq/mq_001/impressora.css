@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+}
+p{
+    font-size: 1.2em;
+    
+}
+
+menu{
+    display: none;
+}
+main section::after{
+    content: 'Mídia query aplicado na impressão';
+}
