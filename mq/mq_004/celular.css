@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* Versão de celular */
+
+body{
+    background: black url(../imagens/back-phone.jpg) no-repeat center/cover;
+}
+main::after{
+    content: 'Versão Celular';
+}
+h1{
+    font-size: 1.6em;
+}
+#pc{ display: none;}
+#phone{ display: block;}
+#tablet{ display: none;}
+#print{ display: none;}
+#tv{ display: none;}

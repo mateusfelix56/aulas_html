@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* Impressora */
+
+body{
+    background: black url(../imagens/back-print.jpg) no-repeat center/cover;
+}
+main{
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+}
+main h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+main::after{
+    content: 'Versão Impressora';
+}
+#pc{ display: none;}
+#phone{ display: none;}
+#tablet{ display: none;}
+#print{ display: block;}
+#tv{ display: none;}

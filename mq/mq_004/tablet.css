@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* Tablet */
+
+body{
+    background: black url(../imagens/back-tablet.jpg) no-repeat center/cover;
+}
+main::after{
+    content: 'Versão Tablet';
+}
+h1{
+    font-size: 1.8em;
+}
+#pc{ display: none;}
+#phone{ display: none;}
+#tablet{ display: block;}
+#print{ display: none;}
+#tv{ display: none;}

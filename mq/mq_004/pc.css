@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* PC */
+
+body{
+    background: black url(../imagens/back-pc.jpg) no-repeat center/cover;
+}
+main::after{
+    content: 'Versão PC';
+}
+h1{
+    font-size: 2em;
+}
+#pc{ display: block;}
+#phone{ display: none;}
+#tablet{ display: none;}
+#print{ display: none;}
+#tv{ display: none;}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+header h1{
+    padding-bottom: 10px;
+}
+header #amburgue{
+    color: white;
+    background-color: rgb(53, 52, 52);
+    display: block;
+    text-align: center;
+    padding: 10px;
+
+}
+header #amburgue:hover{
+    background-color: rgb(70, 70, 70);
+    cursor: pointer;
+}
+header menu{
+    display: none;
+}
+header li{
+    display: block;
+    width: 100vw;
+    text-align: center;
+    border-top: 2px solid gray;
+}
+header li a{
+    border-radius: 0;
+}
+header li a:hover{
+    text-decoration: none;
+    background-color: rgb(100, 100, 100);
+}
