@@ -19,9 +19,9 @@ header h1{
 header #amburgue{
     display: none;
 }
+
 header li{
     display: inline-block;
-    
 }
 header li a{
     display: block;
@@ -33,7 +33,6 @@ header li a{
 }
 header li a:hover{
     background-color: rgb(112, 112, 112);
-
 }
 main{
     width: 85vw;

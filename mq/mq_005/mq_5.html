@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="mq_5.css">
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 700px)">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
         <li><span id="amburgue" class="material-symbols-outlined" onclick="clickMenu()">menu</span></li>
@@ -33,6 +33,14 @@
         </p>
     </main>
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth > 700) {
+                opcoes.style.display = 'block'
+            }
+            else {
+                opcoes.style.display = 'none'
+            }
+        }
         function clickMenu() {
             var opcoes = document.getElementById("opcoes")
             if (opcoes.style.display == 'block') {
