@@ -7,11 +7,17 @@ section#login{
     width: 950px;
 }
 #login > #imagem{
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
 }
 #login > #formulario{
-    float: right;
+    float: left;
     width: 47.8%;
+}
+#formulario > h1{
+    font-size: 2.1em;
+}
+#formulario > p{
+    font-size: 1.1em;
 }

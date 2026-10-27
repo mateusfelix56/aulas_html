@@ -15,3 +15,9 @@ section#login > #formulario{
     float: right;
     width: 61.9%;
 }
+#formulario > h1{
+    font-size: 2em;
+}
+#formulario > p{
+    font-size: 1em;
+}
