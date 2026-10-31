@@ -5,6 +5,7 @@ body{
 }
 section#login{
     width: 90%;
+    height: 340px;
 }
 section#login > #imagem{
     float: left;
