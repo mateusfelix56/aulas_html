@@ -1,24 +1,29 @@
 @charset "UTF-8";
 
 body{
-    background-image: linear-gradient(to bottom,  #49a09d, #5f2c82);
+    background-image: linear-gradient(#49a09d, #5f2c82);
 }
-section#login{
+main{
     width: 950px;
     height: 380px;
 }
-#login > #imagem{
+section#imagem{
     float: right;
     width: 50%;
     height: 100%;
 }
-#login > #formulario{
+section#formulario{
     float: left;
-    width: 47.8%;
+    width: calc(50% - 20px);
 }
-#formulario > h1{
+section#formulario > h1{
     font-size: 2.1em;
+    margin-bottom: 10px;
 }
-#formulario > p{
+section#formulario > p{
     font-size: 1.1em;
+    margin-bottom: 10px;
+}
+section#formulario input{
+    font-size: 1em;
 }
