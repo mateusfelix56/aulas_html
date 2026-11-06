@@ -37,7 +37,7 @@ main{
 }
 section#imagem{
     height: 200px;
-    background: #49a09d url(../imagens_html/janelas.jpg) center/cover no-repeat;
+    background: #49a09d url(Imagem/janelas.jpg) center/cover no-repeat;
 }
 section#formulario{
     padding: 10px;
