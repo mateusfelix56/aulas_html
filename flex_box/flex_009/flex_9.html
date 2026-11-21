@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: blueviolet;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .item{
+            background-color: lightgreen;
+            border: 1px solid black;
+            flex-basis: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            A couteudo maior
+        </div>
+        <div class="item">
+            B
+        </div>
+        <div class="item">
+            C conteudo ainda maior para ocupar ainda mais espaço do que os conteudos anteriores
+        </div>
+        <div class="item">
+            D 
+        </div>
+        <div class="item">
+            E
+        </div>
+    </div>
+</body>
+</html>
