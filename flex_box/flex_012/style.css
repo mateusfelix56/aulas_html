@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+h1, h2, p{
+    margin: 10px;
+}
+p{
+    text-align: justify;
+}
+section{
+    padding: 20px;
+}
+section#flex{
+    background-color: antiquewhite;
+    
+}
+section#flex > article{
+    display: flex;
+    margin-bottom: 10px;
+}
+section#flex > article#normal{
+    flex-flow: row wrap;
+}
+section#flex > article#reverso{
+    flex-flow: row wrap-reverse;
+}
+section#flex > article > div.text{
+    flex: 1 1 450px;
+}
+section#flex > article > div.media{
+    flex: 1 1 350px;
+    
+}
+div.media > iframe{
+    width: 90%;
+}
+div > iframe, img{
+    display: block;
+    margin: auto;
+}
